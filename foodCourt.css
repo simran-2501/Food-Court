@@ -1,0 +1,235 @@
+body{background-image: linear-gradient(to right, rgb(255, 0, 109), rgb(71, 0, 235)); }
+.menu ul{display: grid;
+		 list-style: none;
+		 row-gap: 10px; column-gap: 10px;
+		 padding-left: 10px;
+		 padding-right: 10px;
+		 grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+		 font-family: "Ubuntu";
+		 font-size: 30px;
+		}
+#wrapper{ margin-top: 50px;
+		  margin-left: 2%;
+		  margin-right: 2%;
+		}
+
+#navigation{text-align: center;
+			padding-left: 20px;
+		    padding-right: 20px;
+			padding-bottom: 20px;
+		   }
+.btn{ width: 260px;
+	  height: 50px;
+	 }
+
+.mainbanner{ height: 100px;
+			 width: 800px;}
+
+img{ padding: 10px;}
+
+
+button.btncost{ width: 450px;
+  				height: 190px;
+                background-color: #F2B500;
+                border-style: none;
+                font-size: 25px;
+                font-family: "Quicksand";
+              }
+div.container
+{
+  position: absolute;
+  left: 65px;
+  height: 400px;
+  width:  1400px;
+} 
+div.container2
+{
+  position: absolute;
+  top: 550px;
+  left: 65px;
+  height: 400px;
+  width:  1400px;
+  border-style: solid;
+} 
+div.PriceBtn1 {
+  position: absolute;
+  top: 0px;
+  left: 950px;
+  width: 450px;
+  height: 190px;
+  font-family: "Ubuntu";
+  font-size: 40px;
+
+}
+div.PriceBtn2
+{
+  position: absolute;
+  top: 210px;
+  left: 950px;
+  width: 450px;
+  height: 190px;
+  font-family: "Ubuntu";
+  font-size: 40px;
+}
+div.imgcontainer
+{
+  position: absolute;
+  left: 2px;
+  width: 930px;
+  height: 400px;
+  background-image: url('pizza4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.submenu1 {
+				position: absolute;
+				width: 335px;
+				height: 200px;
+				font-family: "Ubuntu";
+				font-size: 30px;
+			  }
+div.submenu2 {
+  				position: absolute;
+  				left: 355px;
+  				width: 335px;
+  				height: 200px;
+  				font-family: "Ubuntu";
+  				font-size: 30px;
+			 }
+div.submenu3 {
+			  position: absolute;
+  			  left: 710px;
+  			  width: 335px;
+  			  height: 200px;
+  			  font-family: "Ubuntu";
+  			  font-size: 30px;
+			 }
+div.submenu4 {
+  				position: absolute;
+  				left: 1065px;
+			    width: 335px;
+  				height: 200px;
+  				font-family: "Ubuntu";
+  				font-size: 30px;
+			 }
+button.submenu{ width: 335px;
+				height: 200px;
+				border-style: none;
+				padding-top: 80px;
+				border-style: solid;
+				border-color: black;
+				background-color: #FFFFFF;
+			  }
+div.imgtexthead{ position: absolute;
+			 	 top: 60px;
+			 	 left: 60px;
+			 	 background-color: #F2B500;
+			    }
+div.subline{ 
+			 position: absolute;
+			 top: 120px;
+			 left: 60px;
+			 background-color: #F2B500;
+			}
+img.submenuimg{	top: 10px;
+				width: 100px;
+			 	height: 100px;
+			 	border-radius: 50%;
+			  }
+
+div.container3{ position: absolute;
+				border-style: solid;
+				top:775px;  left:65px;
+				width:1400px; height:300px;
+				margin-bottom: 20px;
+				background-color: #FFFFFF;
+			  }
+div.imgcontainer2{ background-image: url('pizza00.jpg');
+				   background-repeat: no-repeat;
+				   background-size: cover;
+				   width: 600px;
+				   height: 275px;
+				   margin: 10px; 
+				 }
+div.tagline{ 
+			 position: absolute;
+			 top: 80px;
+			 left: 620px;
+			 color: black;
+			 font-family: "Potta One";
+			}
+
+.btn-lg1{ width: 240px;
+	  		  height: 50px;
+	}
+
+div.foodimg{ position: relative;
+			 margin-top: 50px;
+			 margin-left: 50px;
+			 width: 150px;
+			 height:150px; }
+
+button.btn-secondary{ position: absolute;
+					  bottom: 100px;
+					  left: 550px;
+					  background-color: #FFFFFF;
+					  color: #000000;
+					  width: 100px;
+					}
+.pizzatable{ 
+			 width: 900px;
+		     margin-left: 300px;
+		     margin-bottom: 10px;
+		     background-color: #FFFFFF;
+		     border-radius: 30px;
+		    }
+div.foodname1{ background-color: #FFFFFF;
+			  position: absolute;
+			  left: 510px;
+			  top: 235px;
+			  font-family: "Quicksand";
+			  font-size: 35px;
+		    }
+div.foodname2{ background-color: #FFFFFF;
+			  position: absolute;
+			  left: 510px;
+			  top: 500px;
+			  font-family: "Quicksand";
+			  font-size: 35px;
+		    }
+div.foodname3{ background-color: #FFFFFF;
+			  position: absolute;
+			  left: 510px;
+			  top: 765px;
+			  font-family: "Quicksand";
+			  font-size: 35px;
+		    }
+div.foodname4{ background-color: #FFFFFF;
+			  position: absolute;
+			  left: 510px;
+			  top: 1030px;
+			  font-family: "Quicksand";
+			  font-size: 35px;
+		    }
+div.foodname5{ background-color: #FFFFFF;
+			  position: absolute;
+			  left: 510px;
+			  top: 1275px;
+			  font-family: "Quicksand";
+			  font-size: 35px;
+		    }
+div.foodname6{ background-color: #FFFFFF;
+			  position: absolute;
+			  left: 510px;
+			  top: 1540px;
+			  font-family: "Quicksand";
+			  font-size: 35px;
+		    }
+button.btn-burger{  position: absolute;
+					bottom: 100px;
+					left: 650px;
+					border: 1px solid darkblue;
+					color: #FFFFFF;
+					width: 150px;
+					font-family: "Quicksand";
+				}
